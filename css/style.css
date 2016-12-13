@@ -11,6 +11,11 @@
   margin: 24px 0 24px;
 }
 
+#error {
+  color: #f00;
+  margin: 24px 0 24px;
+}
+
 h1 {
   font-size: 24px;
 }

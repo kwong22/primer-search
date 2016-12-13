@@ -18,12 +18,16 @@
           </li>
         </ul>
       </div>
-      <form method="post">
+      <div id="error">
+      </div>
+      <div class="sequence-input">
         Enter sequence:<br>
-        <textarea name="sequence" rows="10" cols="30"></textarea>
+        <textarea id="sequence" rows="10" cols="30"></textarea>
         <br>
-        <input type="submit" value="Submit">
-      </form>
+        <button onclick="handleSubmit()">Submit</button>
+      </div>
     </div>
+
+    <script src="js/findprimers.js"></script>
   </body>
 </html>
