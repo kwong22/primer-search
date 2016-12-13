@@ -1,0 +1,20 @@
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.header {
+  margin: 24px 0 12px;
+}
+
+.nav {
+  margin: 24px 0 24px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+textarea {
+  resize: none;
+}
