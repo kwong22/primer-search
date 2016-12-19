@@ -11,6 +11,7 @@
       <div class="header">
         <h1>Primer Search Tool</h1>
       </div>
+
       <div class="nav">
         <ul>
           <li>
@@ -18,13 +19,33 @@
           </li>
         </ul>
       </div>
+
       <div id="error">
       </div>
+
       <div class="sequence-input">
         Enter sequence:<br>
-        <textarea id="sequence" rows="10" cols="30"></textarea>
+        <textarea id="sequence" rows="10" cols="60"></textarea>
         <br>
         <button onclick="handleSubmit()">Submit</button>
+      </div>
+
+      <div class="result">
+        <div class="sequence-info">
+          <div id="full-sequence" class="wordwrap">
+          </div>
+          <div id="length"></div>
+        </div>
+
+        <div class="primer-info">
+          <h2 id="fprimer-title"></h2>
+          <table id="forward-primers">
+          </table>
+
+          <h2 id="rprimer-title"></h2>
+          <table id="reverse-primers">
+          </table>
+        </div>
       </div>
     </div>
 
