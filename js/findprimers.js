@@ -317,7 +317,7 @@ var updatePrimerTables = function (forwardMatches, reverseMatches) {
 
   // Update forward primer table
   document.getElementById("fprimer-title").innerHTML = "Forward Primers";
-  document.getElementById("forward-primers").innerHTML = "<tr><th>Name</th><th>Position (bp)</th><th>Length (bp)</th><th>Sequence</th></tr>";
+  document.getElementById("forward-primers").innerHTML = "<tr><th>Name</th><th>Position (bp)</th><th>Length</th><th>Sequence</th></tr>";
 
   // Loop through forward primers and add them to the table
   for (var i = 0; i < forwardMatches.length; i++) {
@@ -328,7 +328,7 @@ var updatePrimerTables = function (forwardMatches, reverseMatches) {
 
   // Update reverse primer table
   document.getElementById("rprimer-title").innerHTML = "Reverse Primers";
-  document.getElementById("reverse-primers").innerHTML = "<tr><th>Name</th><th>Position (bp)</th><th>Length (bp)</th><th>Sequence</th></tr>";
+  document.getElementById("reverse-primers").innerHTML = "<tr><th>Name</th><th>Position (bp)</th><th>Length</th><th>Sequence</th></tr>";
 
   // Loop through reverse primers and add them to the table
   for (var i = 0; i < reverseMatches.length; i++) {
