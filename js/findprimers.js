@@ -184,7 +184,7 @@ var validateSequence = function (sequence) {
       case 'T':
         break;
       default:
-        return {success: false, message: "Error: Sequence contains invalid nucleotides."};
+        return {success: false, message: "Error: Sequence contains invalid nucleotide " + sequence.charAt(i) + " at position " + (i + 1) + "."};
     }
   }
 
